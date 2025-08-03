@@ -1,0 +1,361 @@
+name: "English"
+code: "en"
+
+# General messages
+general:
+  error: "An error occurred."
+  success: "Success!"
+  invalid_arguments: "Invalid arguments provided."
+  permission_denied: "You don't have permission to use this command."
+  user_not_found: "User not found."
+  requested_by: "Requested by {0}"
+  direct_link: "Direct Link"
+  usage: "Usage: `{0}`"
+  no_description: "No description available."
+  usage_error: "Incorrect Usage"
+  usage_error_desc: "Usage: `{0}`"
+  permission_denied_title: "Permission Denied"
+  permission_denied_desc: "You don't have permission to use this command."
+
+# Language command messages
+language:
+  current: "Current language: **{0}**"
+  switched: "Language switched to **{0}**!"
+  invalid_language: "Invalid language code. Use `w!language list` to see available languages."
+  available_languages: "Available Languages"
+  list_header: "Here are the available languages:"
+
+# Version command messages  
+version:
+  title: "WYSI Bot Version"
+  current_version: "Current version: **{0}**"
+  release: "Release"
+  build: "Build"
+  stable: "Stable"
+  production: "Production"
+
+# Help command messages
+help:
+  title: "WYSI Command List:"
+  command_usage: "Usage: `{0}`"
+  no_description: "No description available."
+  specific_help: "For more specific usage: `w!help <command>`"
+  command_not_found: "❌ Command `{0}` not found."
+  usage_for: "Usage for - [{0}]"
+  parameters_required: "Parameters Required:"
+  permissions_required: "Permissions Required:"
+  category: "Category:"
+  yes: "Yes"
+  owner_admin: "Owner/Admin"
+
+# HelloWorld command messages
+helloworld:
+  title: "👋 Hello World!"
+  description: "Hello World from WYSI Bot!\n\n🌟 Thanks for using our bot!\n💫 WYSI - When You See It!"
+
+# Avatar command messages
+avatar:
+  title: "{0} Avatar"
+  your: "Your"
+
+# Uptime command messages
+uptime:
+  title: "🕐 Bot Uptime"
+  started: "Started"
+  day: "day"
+  days: "days"
+  hour: "hour"
+  hours: "hours"
+  minute: "minute"
+  minutes: "minutes"
+  second: "second"
+  seconds: "seconds"
+
+# Calculator command messages
+calculator:
+  title: "🧮 Calculator"
+  result: "Result"
+  error_invalid: "❌ Invalid mathematical expression"
+  error_division_zero: "❌ Division by zero"
+
+# Choose command messages
+choose:
+  title: "🎲 Choice Result"
+  chose: "I chose: **{0}**"
+  invalid_options: "❌ Please provide at least 2 options separated by commas or spaces"
+
+# Roll command messages
+roll:
+  title: "🎲 Dice Roll"
+  result: "You rolled: **{0}**"
+  invalid_sides: "❌ Invalid number of sides. Must be between 2 and 100"
+  default_sides: "6"
+
+# Card command messages
+card:
+  title: "🃏 Card Draw"
+  drew: "You drew: **{0}**"
+  profile_title: "👤 User Profile Card"
+  user_info: "User Information"
+  server_info: "Server Information"
+  status_activity: "Status & Activity"
+  name: "Name"
+  username: "Username"
+  user_id: "User ID"
+  account_created: "Account Created"
+  type: "Type"
+  bot: "🤖 Bot"
+  user: "👤 User"
+  joined_server: "Joined Server"
+  nickname: "Nickname"
+  roles: "Roles"
+  status: "Status"
+  activity: "Activity"
+  custom_status: "Custom Status"
+  badges: "Badges"
+  server_owner: "👑 Server Owner"
+  administrator: "⚡ Administrator"
+  moderator: "🛡️ Moderator"
+  unknown_status: "❓ Unknown (user not in server)"
+
+# Number Converter command messages
+numberconverter:
+  title: "🔢 Number Converter"
+  binary: "Binary"
+  decimal: "Decimal"
+  hexadecimal: "Hexadecimal"
+  invalid_number: "❌ Invalid number format"
+  usage_help: "Usage: `w!numberconverter <number> [from] [to]`\nSupported formats: binary, decimal, hex"
+
+# Translate command messages
+translate:
+  title: "🌐 Translation"
+  from: "From"
+  to: "To"
+  original: "Original"
+  translated: "Translated"
+  invalid_language: "❌ Invalid language code"
+  translation_failed: "❌ Translation failed"
+  usage_help: "Usage: `w!translate <text> [from] [to]`\nExample: `w!translate Hello en es`"
+
+# Music commands messages
+music:
+  title: "🎵 Music Player"
+  now_playing: "Now Playing"
+  queue: "Queue"
+  empty_queue: "Queue is empty"
+  added_to_queue: "Added to queue: **{0}**"
+  removed_from_queue: "Removed from queue: **{0}**"
+  cleared_queue: "Queue cleared"
+  volume_set: "Volume set to **{0}%**"
+  volume_invalid: "❌ Volume must be between 0 and 100"
+  not_playing: "Nothing is currently playing"
+  not_in_voice: "❌ You must be in a voice channel"
+  bot_not_in_voice: "❌ Bot is not in a voice channel"
+  different_voice: "❌ You must be in the same voice channel as the bot"
+  no_results: "❌ No results found for: **{0}**"
+  search_failed: "❌ Search failed"
+
+# Join/Leave voice commands
+voice:
+  joined: "✅ Joined voice channel: **{0}**"
+  left: "✅ Left voice channel"
+  not_in_voice: "❌ You are not in a voice channel"
+  already_connected: "❌ Already connected to a voice channel"
+  not_connected: "❌ Not connected to any voice channel"
+  no_permission: "❌ No permission to join voice channel"
+
+# TTS commands
+tts:
+  started: "🗣️ Started TTS in **{0}**"
+  stopped: "🔇 TTS stopped"
+  not_active: "❌ TTS is not active in this channel"
+  usage_help: "Usage: `w!tts <message>`"
+  no_message: "❌ Please provide a message to speak"
+
+# Moderation commands
+moderation:
+  ban:
+    title: "🔨 Ban"
+    success: "**{0}** has been banned"
+    failed: "❌ Failed to ban user"
+    already_banned: "❌ User is already banned"
+    cannot_ban_self: "❌ You cannot ban yourself"
+    no_permission: "❌ You don't have permission to ban users"
+    
+  unban:
+    title: "🔓 Unban"
+    success: "**{0}** has been unbanned"
+    failed: "❌ Failed to unban user"
+    not_banned: "❌ User is not banned"
+    
+  kick:
+    title: "👢 Kick"
+    success: "**{0}** has been kicked"
+    failed: "❌ Failed to kick user"
+    cannot_kick_self: "❌ You cannot kick yourself"
+    no_permission: "❌ You don't have permission to kick users"
+    
+  mute:
+    title: "🔇 Mute"
+    success: "**{0}** has been muted"
+    failed: "❌ Failed to mute user"
+    already_muted: "❌ User is already muted"
+    
+  timeout:
+    title: "⏰ Timeout"
+    success: "**{0}** has been timed out for **{1}**"
+    failed: "❌ Failed to timeout user"
+    invalid_duration: "❌ Invalid timeout duration"
+
+# Blacklist command
+blacklist:
+  title: "🚫 Blacklist"
+  added: "**{0}** has been added to the blacklist"
+  removed: "**{0}** has been removed from the blacklist"
+  list_title: "Blacklisted Users"
+  empty: "No users are currently blacklisted"
+  already_blacklisted: "❌ User is already blacklisted"
+  not_blacklisted: "❌ User is not blacklisted"
+  cannot_blacklist_self: "❌ You cannot blacklist yourself"
+
+# Search commands
+search:
+  google:
+    title: "🔍 Google Search"
+    results_for: "Search results for: **{0}**"
+    no_results: "❌ No results found"
+    search_failed: "❌ Search failed"
+    
+  safebooru:
+    title: "🖼️ Safebooru Search"
+    found_image: "Found image for: **{0}**"
+    no_images: "❌ No images found for that tag"
+    search_failed: "❌ Search failed"
+    
+  hentai:
+    title: "🔞 NSFW Search"
+    nsfw_only: "❌ This command can only be used in NSFW channels"
+
+# OSU command
+osu:
+  title: "🎮 osu! Stats"
+  player_stats: "Player stats for: **{0}**"
+  player_not_found: "❌ Player not found"
+  api_error: "❌ osu! API error"
+  rank: "Rank"
+  pp: "PP"
+  accuracy: "Accuracy"
+  playcount: "Play Count"
+  level: "Level"
+
+# Minecraft command
+minecraft:
+  title: "⛏️ Minecraft Server"
+  server_status: "Server Status"
+  online: "Online"
+  offline: "Offline"
+  players: "Players"
+  version: "Version"
+  motd: "MOTD"
+  ping_failed: "❌ Failed to ping server"
+
+# Snipe command
+snipe:
+  title: "👻 Sniped Message"
+  no_messages: "❌ No deleted messages to snipe"
+  author: "Author"
+  message: "Message"
+  deleted_at: "Deleted at"
+
+# Trivia command
+trivia:
+  title: "🧠 Trivia Question"
+  question: "Question"
+  category: "Category"
+  difficulty: "Difficulty"
+  your_answer: "Your answer: **{0}**"
+  correct_answer: "Correct answer: **{0}**"
+  correct: "✅ Correct!"
+  incorrect: "❌ Incorrect!"
+  timeout: "⏰ Time's up!"
+  failed_to_load: "❌ Failed to load trivia question"
+
+# Wordle command
+wordle:
+  title: "🎯 Wordle"
+  new_game: "New Wordle game started!"
+  guess_result: "Guess **{0}**: {1}"
+  won: "🎉 Congratulations! You won in **{0}** guesses!"
+  lost: "💀 Game over! The word was: **{0}**"
+  invalid_word: "❌ Invalid word. Must be 5 letters."
+  game_not_found: "❌ No active game found. Start a new game with `w!wordle`"
+  already_playing: "❌ You already have an active game"
+
+# Common time units
+time:
+  seconds: "seconds"
+  minutes: "minutes" 
+  hours: "hours"
+  days: "days"
+
+# Common status messages
+status:
+  loading: "Loading..."
+  processing: "Processing..."
+  please_wait: "Please wait..."
+
+# OSU command messages
+osu:
+  title: "🎵 osu! Player Stats"
+  api_error: "OSU API is not configured or unavailable"
+  config_error: "Configuration Error"
+  config_error_desc: "OSU API credentials are incorrectly formatted. Please contact the bot administrator."
+  auth_error: "API Error"
+  auth_error_desc: "Failed to authenticate with OSU API. Please try again later."
+  user_not_found: "User Not Found"
+  user_not_found_desc: "Could not find osu! user: `{0}`\nPlease check the username and try again."
+  unexpected_error: "Unexpected Error"
+  unexpected_error_desc: "An error occurred while fetching OSU data: {0}"
+  rank: "Rank"
+  pp: "Performance Points"
+  accuracy: "Accuracy"
+  play_count: "Play Count"
+  level: "Level"
+  country: "Country"
+  global_rank: "Global Rank"
+  country_rank: "Country Rank"
+  profile_link: "View Profile"
+  usage: "username"
+
+# Music system messages
+music:
+  help_title: "🎵 Music Controls"
+  help_description: "Available music commands:"
+  playback_controls: "**Playback Controls**"
+  playback_help: "`pause` - Pause current track\n`resume` - Resume playback\n`stop` - Stop playback and clear queue\n`skip` - Skip to next track\n`volume <0-100>` - Set playback volume"
+  information: "**Information**"
+  information_help: "`queue` - Show current queue\n`nowplaying` - Show current track\n`leave` - Disconnect from voice"
+  paused: "⏸️ Music Paused"
+  paused_desc: "The current track has been paused."
+  resumed: "▶️ Music Resumed"
+  resumed_desc: "Playback has been resumed."
+  stopped: "⏹️ Music Stopped"
+  stopped_desc: "Music has been stopped and queue cleared."
+  skipped: "⏭️ Track Skipped"
+  skipped_desc: "Skipped to the next track."
+  volume_changed: "🔊 Volume Changed"
+  volume_changed_desc: "Volume set to **{0}%**"
+  left_voice: "👋 Left Voice Channel"
+  left_voice_desc: "Disconnected from voice channel and cleared queue."
+  already_paused: "Already Paused"
+  already_paused_desc: "The track is already paused."
+  not_paused: "Not Paused"
+  not_paused_desc: "No track is currently paused."
+  queue_empty_stop: "Queue Empty"
+  queue_empty_stop_desc: "The queue is already empty."
+  queue_empty_skip: "Cannot Skip"
+  queue_empty_skip_desc: "No tracks in queue to skip."
+  invalid_volume: "Invalid Volume"
+  invalid_volume_desc: "Volume must be between 0 and 100."
+  not_playing: "Nothing Playing"

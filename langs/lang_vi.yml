@@ -1,0 +1,361 @@
+name: "Vietnamese"
+code: "vi"
+
+# General messages
+general:
+  error: "Đã xảy ra lỗi."
+  success: "Thành công!"
+  invalid_arguments: "Đối số không hợp lệ."
+  permission_denied: "Bạn không có quyền sử dụng lệnh này."
+  user_not_found: "Không tìm thấy người dùng."
+  requested_by: "Được yêu cầu bởi {0}"
+  direct_link: "Liên kết trực tiếp"
+  usage: "Cách sử dụng: `{0}`"
+  no_description: "Không có mô tả."
+  usage_error: "Cách sử dụng không đúng"
+  usage_error_desc: "Cách sử dụng: `{0}`"
+  permission_denied_title: "Không có quyền"
+  permission_denied_desc: "Bạn không có quyền sử dụng lệnh này."
+
+# Language command messages
+language:
+  current: "Ngôn ngữ hiện tại: **{0}**"
+  switched: "Đã chuyển đổi ngôn ngữ sang **{0}**!"
+  invalid_language: "Mã ngôn ngữ không hợp lệ. Sử dụng `w!language list` để xem các ngôn ngữ có sẵn."
+  available_languages: "Ngôn ngữ có sẵn"
+  list_header: "Đây là các ngôn ngữ có sẵn:"
+
+# Version command messages  
+version:
+  title: "Phiên bản WYSI Bot"
+  current_version: "Phiên bản hiện tại: **{0}**"
+  release: "Phát hành"
+  build: "Bản dựng"
+  stable: "Ổn định"
+  production: "Sản xuất"
+
+# Help command messages
+help:
+  title: "Danh sách lệnh WYSI:"
+  command_usage: "Cách sử dụng: `{0}`"
+  no_description: "Không có mô tả."
+  specific_help: "Để biết cách sử dụng cụ thể: `w!help <lệnh>`"
+  command_not_found: "❌ Không tìm thấy lệnh `{0}`."
+  usage_for: "Cách sử dụng cho - [{0}]"
+  parameters_required: "Yêu cầu tham số:"
+  permissions_required: "Yêu cầu quyền:"
+  category: "Danh mục:"
+  yes: "Có"
+  owner_admin: "Chủ sở hữu/Quản trị viên"
+
+# HelloWorld command messages
+helloworld:
+  title: "👋 Xin chào thế giới!"
+  description: "Xin chào thế giới từ WYSI Bot!\n\n🌟 Cảm ơn bạn đã sử dụng bot của chúng tôi!\n💫 WYSI - Khi bạn nhìn thấy nó!"
+
+# Avatar command messages
+avatar:
+  title: "Avatar của {0}"
+  your: "Bạn"
+
+# Uptime command messages
+uptime:
+  title: "🕐 Thời gian hoạt động Bot"
+  started: "Đã khởi động"
+  day: "ngày"
+  days: "ngày"
+  hour: "giờ"
+  hours: "giờ"
+  minute: "phút"
+  minutes: "phút"
+  second: "giây"
+  seconds: "giây"
+
+# Calculator command messages
+calculator:
+  title: "🧮 Máy tính"
+  result: "Kết quả"
+  error_invalid: "❌ Biểu thức toán học không hợp lệ"
+  error_division_zero: "❌ Chia cho số không"
+
+# Choose command messages
+choose:
+  title: "🎲 Kết quả lựa chọn"
+  chose: "Tôi chọn: **{0}**"
+  invalid_options: "❌ Vui lòng cung cấp ít nhất 2 tùy chọn được phân tách bằng dấu phẩy hoặc khoảng trắng"
+
+# Roll command messages
+roll:
+  title: "🎲 Tung xúc xắc"
+  result: "Bạn tung được: **{0}**"
+  invalid_sides: "❌ Số mặt không hợp lệ. Phải từ 2 đến 100"
+  default_sides: "6"
+
+# Card command messages
+card:
+  title: "🃏 Rút bài"
+  drew: "Bạn rút được: **{0}**"
+  profile_title: "👤 Thẻ Hồ sơ Người dùng"
+  user_info: "Thông tin Người dùng"
+  server_info: "Thông tin Máy chủ"
+  status_activity: "Trạng thái & Hoạt động"
+  name: "Tên"
+  username: "Tên người dùng"
+  user_id: "ID Người dùng"
+  account_created: "Tài khoản được tạo"
+  type: "Loại"
+  bot: "🤖 Bot"
+  user: "👤 Người dùng"
+  joined_server: "Tham gia máy chủ"
+  nickname: "Biệt danh"
+  roles: "Vai trò"
+  status: "Trạng thái"
+  activity: "Hoạt động"
+  custom_status: "Trạng thái tùy chỉnh"
+  badges: "Huy hiệu"
+  server_owner: "👑 Chủ sở hữu máy chủ"
+  administrator: "⚡ Quản trị viên"
+  moderator: "🛡️ Người điều hành"
+  unknown_status: "❓ Không rõ (người dùng không trong máy chủ)"
+
+# Number Converter command messages
+numberconverter:
+  title: "🔢 Bộ chuyển đổi số"
+  binary: "Nhị phân"
+  decimal: "Thập phân"
+  hexadecimal: "Thập lục phân"
+  invalid_number: "❌ Định dạng số không hợp lệ"
+  usage_help: "Cách sử dụng: `w!numberconverter <số> [từ] [đến]`\nĐịnh dạng hỗ trợ: binary, decimal, hex"
+
+# Translate command messages
+translate:
+  title: "🌐 Dịch thuật"
+  from: "Từ"
+  to: "Đến"
+  original: "Bản gốc"
+  translated: "Đã dịch"
+  invalid_language: "❌ Mã ngôn ngữ không hợp lệ"
+  translation_failed: "❌ Dịch thuật thất bại"
+  usage_help: "Cách sử dụng: `w!translate <văn bản> [từ] [đến]`\nVí dụ: `w!translate Hello en vi`"
+
+# Music commands messages
+music:
+  title: "🎵 Trình phát nhạc"
+  now_playing: "Đang phát"
+  queue: "Hàng đợi"
+  empty_queue: "Hàng đợi trống"
+  added_to_queue: "Đã thêm vào hàng đợi: **{0}**"
+  removed_from_queue: "Đã xóa khỏi hàng đợi: **{0}**"
+  cleared_queue: "Đã xóa hàng đợi"
+  volume_set: "Âm lượng đã đặt thành **{0}%**"
+  volume_invalid: "❌ Âm lượng phải từ 0 đến 100"
+  not_playing: "Hiện không có gì đang phát"
+  not_in_voice: "❌ Bạn phải ở trong kênh thoại"
+  bot_not_in_voice: "❌ Bot không ở trong kênh thoại"
+  different_voice: "❌ Bạn phải ở cùng kênh thoại với bot"
+  no_results: "❌ Không tìm thấy kết quả cho: **{0}**"
+  search_failed: "❌ Tìm kiếm thất bại"
+
+# Join/Leave voice commands
+voice:
+  joined: "✅ Đã tham gia kênh thoại: **{0}**"
+  left: "✅ Đã rời kênh thoại"
+  not_in_voice: "❌ Bạn không ở trong kênh thoại"
+  already_connected: "❌ Đã kết nối với kênh thoại"
+  not_connected: "❌ Không kết nối với kênh thoại nào"
+  no_permission: "❌ Không có quyền tham gia kênh thoại"
+
+# TTS commands
+tts:
+  started: "🗣️ Đã bắt đầu TTS trong **{0}**"
+  stopped: "🔇 TTS đã dừng"
+  not_active: "❌ TTS không hoạt động trong kênh này"
+  usage_help: "Cách sử dụng: `w!tts <tin nhắn>`"
+  no_message: "❌ Vui lòng cung cấp tin nhắn để nói"
+
+# Moderation commands
+moderation:
+  ban:
+    title: "🔨 Cấm"
+    success: "**{0}** đã bị cấm"
+    failed: "❌ Thất bại trong việc cấm người dùng"
+    already_banned: "❌ Người dùng đã bị cấm"
+    cannot_ban_self: "❌ Bạn không thể tự cấm mình"
+    no_permission: "❌ Bạn không có quyền cấm người dùng"
+    
+  unban:
+    title: "🔓 Bỏ cấm"
+    success: "**{0}** đã được bỏ cấm"
+    failed: "❌ Thất bại trong việc bỏ cấm người dùng"
+    not_banned: "❌ Người dùng không bị cấm"
+    
+  kick:
+    title: "👢 Đuổi"
+    success: "**{0}** đã bị đuổi"
+    failed: "❌ Thất bại trong việc đuổi người dùng"
+    cannot_kick_self: "❌ Bạn không thể tự đuổi mình"
+    no_permission: "❌ Bạn không có quyền đuổi người dùng"
+    
+  mute:
+    title: "🔇 Câm"
+    success: "**{0}** đã bị câm"
+    failed: "❌ Thất bại trong việc câm người dùng"
+    already_muted: "❌ Người dùng đã bị câm"
+    
+  timeout:
+    title: "⏰ Thời gian chờ"
+    success: "**{0}** đã bị thời gian chờ trong **{1}**"
+    failed: "❌ Thất bại trong việc đặt thời gian chờ"
+    invalid_duration: "❌ Thời lượng thời gian chờ không hợp lệ"
+
+# Blacklist command
+blacklist:
+  title: "🚫 Danh sách đen"
+  added: "**{0}** đã được thêm vào danh sách đen"
+  removed: "**{0}** đã được xóa khỏi danh sách đen"
+  list_title: "Người dùng trong danh sách đen"
+  empty: "Hiện không có người dùng nào trong danh sách đen"
+  already_blacklisted: "❌ Người dùng đã có trong danh sách đen"
+  not_blacklisted: "❌ Người dùng không có trong danh sách đen"
+  cannot_blacklist_self: "❌ Bạn không thể đưa chính mình vào danh sách đen"
+
+# Search commands
+search:
+  google:
+    title: "🔍 Tìm kiếm Google"
+    results_for: "Kết quả tìm kiếm cho: **{0}**"
+    no_results: "❌ Không tìm thấy kết quả"
+    search_failed: "❌ Tìm kiếm thất bại"
+    
+  safebooru:
+    title: "🖼️ Tìm kiếm Safebooru"
+    found_image: "Tìm thấy hình ảnh cho: **{0}**"
+    no_images: "❌ Không tìm thấy hình ảnh cho tag đó"
+    search_failed: "❌ Tìm kiếm thất bại"
+    
+  hentai:
+    title: "🔞 Tìm kiếm NSFW"
+    nsfw_only: "❌ Lệnh này chỉ có thể sử dụng trong các kênh NSFW"
+
+# OSU command
+osu:
+  title: "🎮 Thống kê osu!"
+  player_stats: "Thống kê người chơi cho: **{0}**"
+  player_not_found: "❌ Không tìm thấy người chơi"
+  api_error: "❌ Lỗi API osu!"
+  rank: "Hạng"
+  pp: "PP"
+  accuracy: "Độ chính xác"
+  playcount: "Số lần chơi"
+  level: "Cấp độ"
+
+# Minecraft command
+minecraft:
+  title: "⛏️ Máy chủ Minecraft"
+  server_status: "Trạng thái máy chủ"
+  online: "Trực tuyến"
+  offline: "Ngoại tuyến"
+  players: "Người chơi"
+  version: "Phiên bản"
+  motd: "MOTD"
+  ping_failed: "❌ Thất bại trong việc ping máy chủ"
+
+# Snipe command
+snipe:
+  title: "👻 Tin nhắn đã bắt"
+  no_messages: "❌ Không có tin nhắn đã xóa để bắt"
+  author: "Tác giả"
+  message: "Tin nhắn"
+  deleted_at: "Đã xóa lúc"
+
+# Trivia command
+trivia:
+  title: "🧠 Câu hỏi Trivia"
+  question: "Câu hỏi"
+  category: "Danh mục"
+  difficulty: "Độ khó"
+  your_answer: "Câu trả lời của bạn: **{0}**"
+  correct_answer: "Câu trả lời đúng: **{0}**"
+  correct: "✅ Đúng!"
+  incorrect: "❌ Sai!"
+  timeout: "⏰ Hết thời gian!"
+  failed_to_load: "❌ Thất bại trong việc tải câu hỏi trivia"
+
+# Wordle command
+wordle:
+  title: "🎯 Wordle"
+  new_game: "Trò chơi Wordle mới đã bắt đầu!"
+  guess_result: "Đoán **{0}**: {1}"
+  won: "🎉 Chúc mừng! Bạn đã thắng trong **{0}** lần đoán!"
+  lost: "💀 Trò chơi kết thúc! Từ đó là: **{0}**"
+  invalid_word: "❌ Từ không hợp lệ. Phải có 5 chữ cái."
+  game_not_found: "❌ Không tìm thấy trò chơi đang hoạt động. Bắt đầu trò chơi mới với `w!wordle`"
+  already_playing: "❌ Bạn đã có trò chơi đang hoạt động"
+
+# Common time units
+time:
+  seconds: "giây"
+  minutes: "phút"
+  hours: "giờ"
+  days: "ngày"
+
+# Common status messages
+status:
+  loading: "Đang tải..."
+  processing: "Đang xử lý..."
+  please_wait: "Vui lòng đợi..."
+
+# OSU command messages
+osu:
+  title: "🎵 Thống kê người chơi osu!"
+  api_error: "OSU API không được cấu hình hoặc không khả dụng"
+  config_error: "Lỗi cấu hình"
+  config_error_desc: "Thông tin xác thực OSU API được định dạng không chính xác. Vui lòng liên hệ quản trị viên bot."
+  auth_error: "Lỗi API"
+  auth_error_desc: "Không thể xác thực với OSU API. Vui lòng thử lại sau."
+  user_not_found: "Không tìm thấy người dùng"
+  user_not_found_desc: "Không thể tìm thấy người dùng osu!: `{0}`\nVui lòng kiểm tra tên người dùng và thử lại."
+  unexpected_error: "Lỗi không mong đợi"
+  unexpected_error_desc: "Đã xảy ra lỗi khi tìm nạp dữ liệu OSU: {0}"
+  rank: "Xếp hạng"
+  pp: "Điểm hiệu suất"
+  accuracy: "Độ chính xác"
+  play_count: "Số lần chơi"
+  level: "Cấp độ"
+  country: "Quốc gia"
+  global_rank: "Xếp hạng toàn cầu"
+  country_rank: "Xếp hạng quốc gia"
+  profile_link: "Xem hồ sơ"
+  usage: "tên người dùng"
+
+# Music system messages
+music:
+  help_title: "🎵 Điều khiển nhạc"
+  help_description: "Các lệnh nhạc có sẵn:"
+  playback_controls: "**Điều khiển phát**"
+  playback_help: "`pause` - Tạm dừng bài hát hiện tại\n`resume` - Tiếp tục phát\n`stop` - Dừng phát và xóa hàng đợi\n`skip` - Chuyển sang bài tiếp theo\n`volume <0-100>` - Đặt âm lượng phát"
+  information: "**Thông tin**"
+  information_help: "`queue` - Hiển thị hàng đợi hiện tại\n`nowplaying` - Hiển thị bài hát hiện tại\n`leave` - Ngắt kết nối khỏi voice"
+  paused: "⏸️ Nhạc đã tạm dừng"
+  paused_desc: "Bài hát hiện tại đã được tạm dừng."
+  resumed: "▶️ Nhạc đã tiếp tục"
+  resumed_desc: "Phát lại đã được tiếp tục."
+  stopped: "⏹️ Nhạc đã dừng"
+  stopped_desc: "Nhạc đã được dừng và hàng đợi đã được xóa."
+  skipped: "⏭️ Đã chuyển bài"
+  skipped_desc: "Đã chuyển sang bài tiếp theo."
+  volume_changed: "🔊 Âm lượng đã thay đổi"
+  volume_changed_desc: "Âm lượng đã đặt thành **{0}%**"
+  left_voice: "👋 Đã rời khỏi kênh thoại"
+  left_voice_desc: "Đã ngắt kết nối khỏi kênh thoại và xóa hàng đợi."
+  already_paused: "Đã tạm dừng"
+  already_paused_desc: "Bài hát đã được tạm dừng."
+  not_paused: "Không tạm dừng"
+  not_paused_desc: "Hiện không có bài hát nào được tạm dừng."
+  queue_empty_stop: "Hàng đợi trống"
+  queue_empty_stop_desc: "Hàng đợi đã trống."
+  queue_empty_skip: "Không thể chuyển bài"
+  queue_empty_skip_desc: "Không có bài hát nào trong hàng đợi để chuyển."
+  invalid_volume: "Âm lượng không hợp lệ"
+  invalid_volume_desc: "Âm lượng phải từ 0 đến 100."
+  not_playing: "Không có gì đang phát"
